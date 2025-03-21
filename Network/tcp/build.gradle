@@ -9,7 +9,7 @@ task runClient(type: JavaExec) {
   description = "Run Client"
   main = 'TCPClient'
   // default args
-  args 'localhost' // host
+  args 'ec2-3-135-216-200.us-east-2.compute.amazonaws.com' // host
   args '9099' // port
   args 'This is line one.\nThis is line two' // data
 }
